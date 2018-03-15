@@ -1,7 +1,11 @@
 section {
     border-top: 1.3rem solid $bg-pale-dark;
     background-color: white;
-    padding: 100px 0;
+    padding: 45px 0;
+
+    @include large {
+        padding: 90px 0;
+    }
 
     &.section-bg {
         background-color: $bg-pale;

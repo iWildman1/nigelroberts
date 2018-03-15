@@ -12,6 +12,9 @@
 //Components
 @import 'components/_dotrule';
 @import 'components/_button';
+@import 'components/_logo-grid';
+@import 'components/_testimonial';
+@import 'components/_image-grid';
 
 //Layout
 @import 'layout/_grid';
@@ -19,6 +22,9 @@
 @import 'layout/_navigation';
 @import 'layout/_header';
 @import 'layout/_lead';
+@import 'layout/_clients';
+@import 'layout/_footer';
+@import 'layout/_lr-content';
 
 //Pages
 @import 'pages/_home';

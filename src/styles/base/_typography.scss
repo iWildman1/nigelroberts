@@ -5,7 +5,15 @@ body {
 }
 
 p {
-    font-size: 25px;
+    font-size: 18px;
+
+    @include medium {
+        font-size: 21px;
+    }
+
+    @include large {
+        font-size: 25px;
+    }
 }
 
 h1,
@@ -20,11 +28,23 @@ h6 {
 }
 
 h1 {
-    font-size: 66px;
+    font-size: 40px;
+
+    @include medium {
+        font-size: 49px;
+    }
+
+    @include large {
+        font-size: 66px;
+    }
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 36px;
+
+    @include large {
+        font-size: 48px;
+    }
 }
 
 h3 {
